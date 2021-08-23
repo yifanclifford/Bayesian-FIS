@@ -1,0 +1,17 @@
+data_dir: ../dataset
+model_dir: ../model
+result_dir: ../result
+data_name: MLHt
+batch_size: 1000
+test_size: 1000
+selection_epoch: 1
+weight_epoch: 0
+selection_lr: 0.01
+weight_lr: 0.001
+num_candidate: 101
+selection_rate: 0.5
+deep_layer: [ 8 ]
+policy_layer: [ 16 ]
+num_layer: 2
+metrics: []
+topn: [ 1, 10 ]

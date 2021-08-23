@@ -1,4 +1,5 @@
 FIS/try.py
 FIS/cpp/release/lib.so
 **/__pycache__
-.idea
+**/.idea
+process

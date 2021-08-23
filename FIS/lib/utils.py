@@ -18,7 +18,7 @@ def mkdir_safe(dir_path):
 
 
 def get_lib(base_path):
-    lib_file = 'cpp/release/lib.so'
+    lib_file = '../cpp/release/lib.so'
     lib = ctypes.cdll.LoadLibrary(lib_file)
     lib.init(ctypes.create_string_buffer(base_path.encode(), len(base_path) * 2))
     lib.sample_negative.argtypes = [

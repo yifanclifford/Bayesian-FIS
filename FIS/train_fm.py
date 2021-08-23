@@ -61,7 +61,7 @@ def running_fm(args, params):
     # eval_func = eval('evaluate_{}'.format(args.task))
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
     procedure = ProgramFM(num_candidate=params['num_candidate'], device=device,
-                          progress=args.progress, topn=params['topn'][-1], metrics={'nDCG', 'HR'})
+                          progress=args.progress, topn=params['topn'][-1], metrics={'ARHR', 'HR'})
     model_dir = f"{params['model_dir']}/{params['data_name']}"
     mkdir_safe(model_dir)
     model_path = '{}/{}_{}.state'.format(model_dir, args.algo, args.d)

@@ -110,6 +110,10 @@ We consider two tasks: recommendation and CTR-prediction.
 ### Top-$N$ Recommendation
 Here is an example of running an experiment of recommendation:
 ```Python
-python main.py PFIS --task topn --gpu -d 64 --epoch 100 --initial
+python main.py PFIS --task topn --gpu -d 64 --epoch 100 --initial --progress
 ```
 ### CTR prediction
+Here is an example of running an experiment of recommendation:
+```Python
+python main.py HFIS --task ctr --gpu -d 16 --epoch 100 --progress
+```

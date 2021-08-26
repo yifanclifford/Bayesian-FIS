@@ -6,7 +6,7 @@ This is the overall implementation of our proposed **BP-FIS** [[1]](#refer-ancho
 [1] Yifan Chen, Pengjie Ren, Yang Wang, and Maarten de Rijke. 2019. Bayesian Personalized Feature Interaction Selection for Factorization Machines. SIGIR'19.
 </div>
 <div id="refer-anchor-2">
-[2] Yifan Chen, Yang Wang, Pengjie Ren, Meng Wang and Maarten de Rijke. 2021. Bayesian Feature Interaction Selection for Factorization Machines. The Journal of Artificial Intelligence. (to appear)
+[2] Yifan Chen, Yang Wang, Pengjie Ren, Meng Wang and Maarten de Rijke. Bayesian Feature Interaction Selection for Factorization Machines. Artificial Intelligence, Elsevier 2021. (to appear)
 </div>
 
 
